@@ -71,3 +71,7 @@ rild.libpath=/system/vendor/lib/libril-wrapper.so
 
 ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
+
+# Power Manager
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=1
